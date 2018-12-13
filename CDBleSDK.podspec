@@ -78,7 +78,7 @@ s.license      = { :type => "MIT", :file => "LICENSE" }   # s.license      = { :
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/lele9096/bluetooth-sdk.git", :tag => "v1.0.2" }
+  s.source       = { :git => "https://github.com/lele9096/bluetooth-sdk.git", :tag => "v1.0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

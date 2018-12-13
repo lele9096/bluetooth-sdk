@@ -1,6 +1,0 @@
-framework module CDBleSDK {
-  umbrella header "CDBleSDK.h"
-
-  export *
-  module * { export * }
-}
