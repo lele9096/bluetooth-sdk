@@ -16,6 +16,12 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
+Output/
+samples/
+scripts/
+doc/
+Configurations/
+LZ_BLESDKTests/
 
 ## Other
 *.moved-aside
