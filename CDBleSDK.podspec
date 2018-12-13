@@ -65,7 +65,8 @@ s.license      = { :type => "MIT", :file => "LICENSE" }   # s.license      = { :
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+  # 支持 IOS 8.0 以上的版本
+  s.ios.deployment_target = "8.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -77,7 +78,7 @@ s.license      = { :type => "MIT", :file => "LICENSE" }   # s.license      = { :
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/lele9096/bluetooth-sdk.git", :tag => "v1.0.1" }
+  s.source       = { :git => "https://github.com/lele9096/bluetooth-sdk.git", :tag => "v1.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -88,6 +89,7 @@ s.license      = { :type => "MIT", :file => "LICENSE" }   # s.license      = { :
   #  Not including the public_header_files will make all headers public.
   #
 
+# s.source_files 此路径为相对于 CDBleSDK.podspec 的文件路径，且此路径文件夹为 需要暴露给 别人文件的文件夹
   s.source_files  = "CDBleSDK.framework/Headers", "*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
@@ -114,7 +116,7 @@ s.license      = { :type => "MIT", :file => "LICENSE" }   # s.license      = { :
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
+  s.vendored_frameworks = 'CDBleSDK.framework'
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
