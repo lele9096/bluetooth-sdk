@@ -17,14 +17,14 @@ Pod::Spec.new do |s|
 
   s.name         = "CDBleSDK"
   s.version      = "1.0"
-  s.summary      = "A short description of CDBleSDK."
+  s.summary      = "蓝牙数据交互SDK"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "这是蓝牙数据交互SDK"
+  s.description  = "这是蓝牙中心设备与外设通讯交互SDK"
 
   s.homepage     = "https://github.com/lele9096/bluetooth-sdk"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -77,7 +77,7 @@ s.license      = { :type => "MIT", :file => "LICENSE" }   # s.license      = { :
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/lele9096/bluetooth-sdk.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/lele9096/bluetooth-sdk.git", :tag => "v1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -88,7 +88,7 @@ s.license      = { :type => "MIT", :file => "LICENSE" }   # s.license      = { :
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "CDBleSDK", "*.{h,m}"
+  s.source_files  = "CDBleSDK.framework/Headers", "*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
