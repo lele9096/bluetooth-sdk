@@ -28,7 +28,6 @@
  *  蓝牙状态的开启与关闭通知中心发出的通知名称和 key 值
  */
 static NSString* _Nullable  const CentralManagerDidUpdateStateNotification = @"CentralManagerDidUpdateStateNotification";
-static NSString* _Nullable  const CentralManagerAuth = @"CentralManagerAuth";
 
 @class CDBleDataModel,CDBleManager;
 
@@ -133,7 +132,6 @@ static NSString* _Nullable  const CentralManagerAuth = @"CentralManagerAuth";
  *  查询充电数据
  */
 -(void)queryChargingDataWithError:(void(^_Nullable)(NSError* _Nullable error))error;
-
 
 
 @end

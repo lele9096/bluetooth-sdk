@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CDBleSDK"
-  s.version      = "1.0"
+  s.version      = "1.0.1"
   s.summary      = "蓝牙数据交互SDK"
 
   # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "这是蓝牙中心设备与外设通讯交互SDK"
+  s.description  = "联桩(IOS)蓝牙中心设备与外设(充电桩)通讯交互SDK"
 
   s.homepage     = "https://github.com/lele9096/bluetooth-sdk"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -78,7 +78,7 @@ s.license      = { :type => "MIT", :file => "LICENSE" }   # s.license      = { :
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/lele9096/bluetooth-sdk.git", :tag => "v1.0.3" }
+  s.source       = { :git => "https://github.com/lele9096/bluetooth-sdk.git", :tag => "v1.0.5" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -115,7 +115,7 @@ s.license      = { :type => "MIT", :file => "LICENSE" }   # s.license      = { :
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
   #
-
+  # 此处未需要添加的 framework 为动态库
   s.vendored_frameworks = 'CDBleSDK.framework'
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
