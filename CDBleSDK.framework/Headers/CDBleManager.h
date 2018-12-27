@@ -134,4 +134,5 @@ static NSString* _Nullable  const CentralManagerDidUpdateStateNotification = @"C
 -(void)queryChargingDataWithError:(void(^_Nullable)(NSError* _Nullable error))error;
 
 
+
 @end

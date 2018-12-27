@@ -14,21 +14,21 @@
  */
 @property(nonatomic,copy)NSString* serialNumber;
 /**
- *  充电电量
+ *  充电电量(度) kw*h
  */
-@property(nonatomic,assign)UInt64 elecQuantity;
+@property(nonatomic,copy)NSString* elecQuantity;
 
 /**
- *  充电电压
+ *  充电电压(V)
  */
-@property(nonatomic,assign)UInt64 voltage;
+@property(nonatomic,copy)NSString* voltage;
 
 /**
- *  充电电流
+ *  充电电流(A)
  */
-@property(nonatomic,assign)UInt64 electric;
+@property(nonatomic,assign)NSString* electric;
 /**
- *  充电时长
+ *  充电时长(s)
  */
 @property(nonatomic,assign)UInt64 duration;
 
