@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CDBleSDK"
-  s.version      = "1.0.2"
+  s.version      = "v1.0.9"
   s.summary      = "蓝牙数据交互SDK"
 
   # This description is used to generate tags and improve search results.
@@ -78,7 +78,7 @@ s.license      = { :type => "MIT", :file => "LICENSE" }   # s.license      = { :
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/lele9096/bluetooth-sdk.git", :tag => "v1.0.6" }
+  s.source       = { :git => "https://github.com/lele9096/bluetooth-sdk.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
